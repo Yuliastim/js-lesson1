@@ -1,16 +1,16 @@
 "use strict";
-//let userName = prompt ("Как вас зовут?");
-//alert ("Привет, "+ userName);
-//userName = 555;
-//alert ("Привет, + $(userName)");
-//let a = prompt ("Введите число", "5");
-//let b;
-//b = ("a  2");
-//alert ("Квадрат числа $(a) равен $(b)");
-//let a = +prompt("Введите первое число");
-//let b = +prompt ("Введите второе число");
-//let c = (a+b)/2;
-//alert ('Среднее арифметичесое равно' + c);//
+/*let userName = prompt ("Как вас зовут?");
+alert ("Привет, " + userName);
+// userName = 555;
+alert (`Привет, ${userName}`);
+let a = prompt ("Введите число", "5");
+let b;
+b = a**2;
+alert (`Квадрат числа ${a} равен ${b}`);
+a = +prompt("Введите первое число");
+b = +prompt ("Введите второе число");
+let c = (a+b)/2;
+alert ('Среднее арифметичесое равно' + c);*/
 
 //Задание 4
 //const METER_TO_MILES = 0.621371;
@@ -35,9 +35,10 @@
 //if (userAge > 0 || userAge <120) {
 //    alert ("Вы врёте!")
 //}
-let userNumber; modul
+let userNumber, 
+    modul;
 userNumber = +prompt("Введите число");
 if (userNumber < 0) {
-    let modul = userNumber;
+    modul = userNumber;
 } else modul = userNumber;
 alert ("Модуль равен " + modul);
